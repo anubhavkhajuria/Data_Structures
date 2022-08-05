@@ -56,7 +56,10 @@ for _ in range(int(input())):
     x.insertt(int(input()))
 
 print("Printing inorder")
-x.printt_inorder()
+x.print_inorder()
 print("Printing preorder")
+x.print_preorder()
+print("Printing postorder")
+x.print_postorder()
 
 
